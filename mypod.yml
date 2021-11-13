@@ -1,0 +1,10 @@
+apiversion: v1
+kind: Pod
+metabeta:
+  name: hell-pod
+spec: 
+  container: 
+   - name: first-container
+     image: nginx
+     ports:
+     - containerport: 80
