@@ -11,8 +11,8 @@ spec:
       labels:
         app: myjavaapp
     spec: 
-      container:
+      containers:
       - name: mycontainer
         image: maha4iac/mymahaapp:1
         ports:
-        - containerPort:8080
+        - containerPort: 8080
