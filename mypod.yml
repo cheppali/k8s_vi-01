@@ -1,9 +1,9 @@
 apiversion: v1
 kind: Pod
-metabeta:
-  name: hell-pod
+metadeta:
+  name: hello-pod
 spec: 
-  container: 
+  containers: 
    - name: first-container
      image: nginx
      ports:
