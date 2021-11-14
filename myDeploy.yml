@@ -5,15 +5,15 @@ metadata:
   labels:
      app: myjavaapp
 spec: 
-     replicas: 3
-     selector: 
-       matchLabels: 
+  replicas: 3
+  selector: 
+     matchLabels: 
          app: myjavaapp
-     template:
-       metadata:
+  template:
+     metadata:
          labels:
            app: javaapp
-       spec:
+     spec:
          containers:
          - name: myjavaapp-container
            image: maha4iac/myonlinebooking:2
