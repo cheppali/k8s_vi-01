@@ -4,10 +4,10 @@ metadata:
   name: myjavaapp-deploy
   labels:
      app: myjavaapp
-  spec: 
+spec: 
      replicas: 3
      selector: 
-       matchlabels: 
+       matchLabels: 
          app: myjavaapp
      template:
        metadata:
@@ -18,4 +18,4 @@ metadata:
          - name: myjavaapp-container
            image: maha4iac/myonlinebooking:2
            ports:
-           _ containeport: 8080
+           _ containePort: 8080
