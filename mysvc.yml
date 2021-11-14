@@ -6,7 +6,7 @@ metadata:
     app: myjavaapp
     version: 2.6.2
 spec:
-    type: nodePort:
+    type: nodePort
     ports:
     - port: 8080
       nodePort: 30001
